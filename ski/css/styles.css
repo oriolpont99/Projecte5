@@ -118,6 +118,7 @@ a.borrarp {
 }
 .producte1{
     width: 33%;
+    display: none;
 }
 .material{
     flex-wrap: wrap;
@@ -207,4 +208,25 @@ a.borrarp {
     color: #fff;
     padding: 0 30px;
     font-size: 25px;
+}
+.filterElements {
+    display: none;  
+}
+.show {
+    display: block;
+}
+.btn{
+    background-color: #00416A;
+    border-color: #00416a;
+    color: #fff;
+    font-family: forta;
+    font-size: 27px;
+    padding: 1px 24px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.filterBtns{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
